@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Você deve sempre incluir o langatributo dentro da <html>tag, para declarar o idioma da página da Web. Isso se destina a ajudar os motores de busca e navegadores.
+O exemplo a seguir especifica o portugues - Brasil como o idioma: -->
+<html lang="pt-br">
+	<header> 
+		<title> HTML - Listas e Links </title>
+		<meta charset="UTF-8">
+	</header>
+	<body>
+
+		
+		<h1>Aula - Lista e Links</h1>
+		<hr>
+
+		<!-- O title atributo define algumas informações extras sobre um elemento.
+			O valor do atributo title será exibido como uma dica de ferramenta quando você passar o mouse sobre o elemento: -->
+			<p title="I'm a tooltip">This is a paragraph.</p>
+			<hr>
+
+		<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
+		<ul>
+			<li>Brasil</li>
+			<li>Argentina</li>
+			<li>Uruguai</li>
+			<li>Paraguai</li>
+		</ul>
+		<hr>
+
+		<h2 id="lista-nao-ordenada">Lista não ordenada com Sub Itens</h2>
+		<ul>
+			<li>
+				Brasil
+				<ul>
+					<li>Cergipe</li>
+					<li>Bahia</li>
+					<li>São Paulo</li>
+					<li>Rio de Janeiro</li>
+				</ul>
+			</li>
+			<li>
+				Brasil
+				<ol>
+					<li>
+						São Paulo
+						<ul>
+							<li>São Paulo</li>
+						</ul>
+					</li>
+					<li>
+						Pará
+						<ul>
+							<li>Belém</li>
+						</ul>
+					</li>
+					<li>
+						São Paulo
+						<ul>
+							<li>São Paulo</li>
+						</ul>
+					</li>
+					<li>
+						Pará
+						<ul>
+							<li>Belém</li>
+						</ul>
+					</li>
+				</ol>
+			</li>
+		</ul>
+		<hr>
+
+		<h2>Lista Ordenada</h2>
+		<ol>
+			<li>Palmeiras</li>
+			<li>Corinthians</li>
+			<li>Santos</li>
+			<li>São Paulo</li>
+		</ol>
+		<hr>
+
+		<h2>Lista Ordenada com Sub Intens</h2>
+		<ol>
+			<li>
+				Palmeiras
+				<ul>
+					<li>Palmeiras</li>
+					<li>Palmeiras</li>
+					<li>Palmeiras</li>
+				</ul>
+			</li>
+			<li>
+				Corinthians
+				<ol>
+					<li>Corinthians</li>
+					<li>Corinthians</li>
+					<li><a href="#top">Voltar ao topo</a></li> <!-- Também podeos usar links dentro da lista -->
+				</ol>
+			</li>
+		</ol>
+		<hr>
+
+		<h2>Lista de Definições</h2>
+		<dl>
+			<dt>TV</dt>
+				<dd>32 Polegadas, Smart</dd>
+
+			<dt>PC</dt>
+				<dd>19 Polegadas, SSD, Core I5</dd>
+
+			<dt>TV</dt>
+				<dd>32 Polegadas, Smart</dd>
+				<dd>127 volts</dd>
+
+			<dt>PC</dt>
+				<dd>19 Polegadas, SSD, Core I5</dd>
+				<dd>127 volts</dd>
+		</dl>
+		<hr>
+
+		<br> <!-- Quebra de linha -->
+		
+		<h1>Links</h1>
+
+		<!-- links de navegação -->
+		<nav>
+			<ul>
+				<!-- link esterno -->
+				<!-- O destino do link é especificado no href atributo. -->
+				<!-- A <a>tag define um hiperlink. O href atributo especifica a URL da página para a qual o link vai -->
+				<li><a href="https://ebaconline.com.br/full-stack-java">Link curso Profissão: Desenvolvedor Full Stack Java</a></li>
+				<li><a href="#top">Voltar ao topo da página</a> <br></li>
+				<li><a href="#lista-nao-ordenada">Voltar a Lista não Ordenada</a></li>
+			</ul>
+		</nav>
+		<hr>
+
+		<a href="Aula1_Introducao_HTML.html">Anterior</a>
+		<br>
+		<a href="Aula3_Formatacao_de_texto.html">Proxima pagina</a>
+		
+	</body>
+</html>
